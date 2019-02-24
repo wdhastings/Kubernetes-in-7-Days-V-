@@ -7,7 +7,7 @@ home: https://kube7days.do.citopro.com
 keywords:
   - documentation
 sources:
-  - https://github.com/desdrury/kubernetes-in-7-days.git
+  - https://github.com/wdhastings/kubernetes-in-7-days.git
 maintainers:
-- name: desdrury
+- name: wdhastings
   email: des@citopro.com
