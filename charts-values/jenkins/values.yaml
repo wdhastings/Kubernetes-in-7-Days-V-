@@ -6,7 +6,7 @@ Master:
   Image:    jenkins/jenkins
   ImageTag: 2.136
   ServiceType: ClusterIP
-  HostName:    jenkins.192.168.26.11.nip.io
+  HostName:    jenkins.192.168.137.4.nip.io
 
   Ingress:
     Annotations:
