@@ -8,7 +8,7 @@ podTemplate(label: label,
       ttyEnabled: true, 
       command: 'cat',
       envVars: [
-        containerEnvVar(key: 'DOCKER_HOST', value: 'tcp://dind:2375')
+        containerEnvVar(key: 'DOCKER_HOST', value: 'tcp://dind.jenkins:2375')
       ]
     ),
     containerTemplate(
@@ -69,7 +69,7 @@ podTemplate(label: label,
                   --set image.repository=wdhastings/first-app \
                   --set image.tag=${VERSION}.${COMMIT} \
                   --set ingress.enabled=true \
-                  --set ingress.hosts[0]=first-app-cicd.192.168.26.11.nip.io \
+                  --set ingress.hosts[0]=first-app-cicd.192.168.137.4.nip.io \
                   first-app
               """
             }
