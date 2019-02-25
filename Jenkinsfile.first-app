@@ -8,7 +8,7 @@ podTemplate(label: label,
       ttyEnabled: true, 
       command: 'cat',
       envVars: [
-        containerEnvVar(key: 'DOCKER_HOST', value: 'tcp://dind.jenkins:2375')
+        containerEnvVar(key: 'DOCKER_HOST', value: 'tcp://dind:2375')
       ]
     ),
     containerTemplate(
