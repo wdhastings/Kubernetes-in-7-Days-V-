@@ -12,7 +12,7 @@ server:
   ingress:
     enabled: true
     hosts:
-      - prometheus.192.168.26.11.nip.io
+      - prometheus.192.168.137.4.nip.io
     annotations:
       kubernetes.io/ingress.class: nginx
   

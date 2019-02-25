@@ -4,7 +4,7 @@ rbac:
 
 Master:
   Image:    jenkins/jenkins
-  ImageTag: 2.136
+  ImageTag: 2.165
   ServiceType: ClusterIP
   HostName:    jenkins.192.168.137.4.nip.io
 
